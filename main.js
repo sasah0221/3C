@@ -25,23 +25,19 @@ const tempos = [tempoObjetivo1, tempoObjetivo2, tempoObjetivo3, tempoObjetivo4];
 function calculaTempo(tempoObjetivo) {
     let tempoAtual = new Date();
     let tempoFinal = tempoObjetivo - tempoAtual;
-    
-    let segundos = Math.floor(tempoFinal / 1000);
-    let minutos = Math.floor(segundos / 60);
-    let horas = Math.floor(minutos / 60);
-    let dias = Math.floor(horas / 24);
 
-    // Ajustando para as horas não ultrapassarem 24
-    horas %= 24;
-    minutos %= 60;
-    segundos %= 60;
-
-    // Se o tempo for passado, retornar 0 para todos
-    if (tempoFinal > 0) {
-        return [dias, horas, minutos, segundos];
-    } else {
+    // Se o tempo já passou, retorna 0 para todos
+    if (tempoFinal <= 0) {
         return [0, 0, 0, 0];
     }
+
+    // Calcular os dias, horas, minutos e segundos restantes
+    let dias = Math.floor(tempoFinal / (1000 * 60 * 60 * 24)); // 1 dia = 1000ms * 60s * 60m * 24h
+    let horas = Math.floor((tempoFinal % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)); // Horas restantes
+    let minutos = Math.floor((tempoFinal % (1000 * 60 * 60)) / (1000 * 60)); // Minutos restantes
+    let segundos = Math.floor((tempoFinal % (1000 * 60)) / 1000); // Segundos restantes
+
+    return [dias, horas, minutos, segundos];
 }
 
 function atualizaCronometro() {
