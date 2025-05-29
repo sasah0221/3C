@@ -13,10 +13,10 @@
         <h2 class="titulo-principal">Meus objetivos do ano<span>_</span></h2>
         <div class="conteudo">
             <div class="botoes">
-                <button class="botao ativo">Fazer enem / vestibular</button>
-                <button class="botao">Fazer faculdade</button>
-                <button class="botao">Arrumar um emprego</button>
-                <button class="botao">Terminar a faculdade</button>
+                <button class="botao ativo">Fazer enem</button>
+                <button class="botao">Fazer 4 cursos onlline</button>
+                <button class="botao">Fazer o enem</button>
+                <button class="botao">Entrar a faculdade</button>
             </div>
             <div class="abas-textos">
                 <div class="aba-conteudo ativo">
@@ -24,7 +24,7 @@
                     <h4 class="aba-conteudo-titulo-secundario">Tempo para completar o objetivo</h4>
                     <div class="contador">
                         <div class="contador-digito">
-                            <p class="contador-digito-numero" id="dias0">206</p>
+                            <p class="contador-digito-numero" id="dias0">205</p>
                             <p class="contador-digito-texto">dias</p>
                         </div>
                         <div class="contador-digito">
@@ -42,11 +42,11 @@
                     </div>
                 </div>
                 <div class="aba-conteudo">
-                    <h3 class="aba-conteudo-titulo-principal">Fazer faculdade</h3>
+                    <h3 class="aba-conteudo-titulo-principal">Fazer 4 cursos onlline</h3>
                     <h4 class="aba-conteudo-titulo-secundario">Tempo para completar o objetivo</h4>
                     <div class="contador">
                         <div class="contador-digito">
-                            <p class="contador-digito-numero" id="dias1">325</p>
+                            <p class="contador-digito-numero" id="dias1">96</p>
                             <p class="contador-digito-texto">dias</p>
                         </div>
                         <div class="contador-digito">
@@ -64,11 +64,11 @@
                     </div>
                 </div>
                 <div class="aba-conteudo">
-                    <h3 class="aba-conteudo-titulo-principal">Arrumar um emprego</h3>
+                    <h3 class="aba-conteudo-titulo-principal">Fazer o enem</h3>
                     <h4 class="aba-conteudo-titulo-secundario">Tempo para completar o objetivo</h4>
                     <div class="contador">
                         <div class="contador-digito">
-                            <p class="contador-digito-numero" id="dias2">90</p>
+                            <p class="contador-digito-numero" id="dias2">206</p>
                             <p class="contador-digito-texto">dias</p>
                         </div>
                         <div class="contador-digito">
@@ -86,11 +86,11 @@
                     </div>
                 </div>
                 <div class="aba-conteudo">
-                    <h3 class="aba-conteudo-titulo-principal">Terminar a faculdade</h3>
+                    <h3 class="aba-conteudo-titulo-principal">Entrar na faculdade</h3>
                     <h4 class="aba-conteudo-titulo-secundario">Tempo para completar o objetivo</h4>
                     <div class="contador">
                         <div class="contador-digito">
-                            <p class="contador-digito-numero" id="anos3">6</p>
+                            <p class="contador-digito-numero" id="anos3">313</p>
                             <p class="contador-digito-texto">anos</p>
                         </div>
                         <div class="contador-digito">
