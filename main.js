@@ -14,13 +14,13 @@
         <div class="conteudo">
             <div class="botoes">
                 <button class="botao ativo">Fazer enem</button>
-                <button class="botao">Fazer 4 cursos onlline</button>
+                <button class="botao">Fazer 4 cursos online</button> <!-- Corrigido "onlline" para "online" -->
                 <button class="botao">Fazer o enem</button>
-                <button class="botao">Entrar a faculdade</button>
+                <button class="botao">Entrar na faculdade</button> <!-- Corrigido "a" para "na" -->
             </div>
             <div class="abas-textos">
                 <div class="aba-conteudo ativo">
-                    <h3 class="aba-conteudo-titulo-principal"> enem / vestibular</h3>
+                    <h3 class="aba-conteudo-titulo-principal">enem / vestibular</h3>
                     <h4 class="aba-conteudo-titulo-secundario">Tempo para completar o objetivo</h4>
                     <div class="contador">
                         <div class="contador-digito">
@@ -42,7 +42,7 @@
                     </div>
                 </div>
                 <div class="aba-conteudo">
-                    <h3 class="aba-conteudo-titulo-principal">Fazer 4 cursos onlline</h3>
+                    <h3 class="aba-conteudo-titulo-principal">Fazer 4 cursos online</h3>
                     <h4 class="aba-conteudo-titulo-secundario">Tempo para completar o objetivo</h4>
                     <div class="contador">
                         <div class="contador-digito">
@@ -86,7 +86,7 @@
                     </div>
                 </div>
                 <div class="aba-conteudo">
-                    <h3 class="aba-conteudo-titulo-principal">Entrar na faculdade</h3>
+                    <h3 class="aba-conteudo-titulo-principal">Entrar na faculdade</h3> <!-- Corrigido "a" para "na" -->
                     <h4 class="aba-conteudo-titulo-secundario">Tempo para completar o objetivo</h4>
                     <div class="contador">
                         <div class="contador-digito">
@@ -113,4 +113,4 @@
     <script src="main.js"></script>
 </body>
 
-</html
+</html>
