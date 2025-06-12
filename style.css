@@ -100,7 +100,7 @@ body {
 /* Área das abas de conteúdo */
 .abas-textos {
     background-color: var(--texto-fundo);
-    padding: 40px;
+    padding: 30px;
     border-radius: 0 0 40px 40px;
 }
 
