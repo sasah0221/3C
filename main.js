@@ -46,7 +46,7 @@
                     <h4 class="aba-conteudo-titulo-secundario">Tempo para completar o objetivo</h4>
                     <div class="contador">
                         <div class="contador-digito">
-                            <p class="contador-digito-numero" id="dias1">96</p>
+                            <p class="contador-digito-numero" id="dias1">95</p>
                             <p class="contador-digito-texto">dias</p>
                         </div>
                         <div class="contador-digito">
@@ -90,7 +90,7 @@
                     <h4 class="aba-conteudo-titulo-secundario">Tempo para completar o objetivo</h4>
                     <div class="contador">
                         <div class="contador-digito">
-                            <p class="contador-digito-numero" id="anos3">313</p>
+                            <p class="contador-digito-numero" id="anos3">300</p>
                             <p class="contador-digito-texto">anos</p>
                         </div>
                         <div class="contador-digito">
